@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Videothek", "Videothek\Videothek.csproj", "{EA8C0A3B-4CFE-463E-8DA6-DCF203AD46FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Videothek.Core", "Videothek.Core\Videothek.Core.csproj", "{1B71AEC0-A9B6-4A21-90A0-52A9DAF862B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{75803140-CCC1-4086-ABA6-621F9E93BB6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Api", "Web Api", "{A05F0F39-1E1C-47AD-ABFC-494536E78FFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Entity", "Data Entity", "{CB32A9F2-593D-40CB-A489-4017B42EE6AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Videothek.Data", "Videothek.Data\Videothek.Data.csproj", "{0F605DD8-8FDE-4F29-82B8-4A119D00F07A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Api Selfhost", "Web Api Selfhost", "{96C7B1CA-5739-4DA4-A30E-951B10489DF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Videothek.Selfhost", "Videothek.Selfhost\Videothek.Selfhost.csproj", "{E5DC0974-8D28-4DA0-992F-340AB2C3C9BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web jQuery", "Web jQuery", "{BA028221-E1F5-4734-89AB-0ACABE54DC91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCall.jQuery", "ApiCall.jQuery\ApiCall.jQuery.csproj", "{EAF747F1-FB3A-4F57-98F8-B437739B309C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA8C0A3B-4CFE-463E-8DA6-DCF203AD46FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8C0A3B-4CFE-463E-8DA6-DCF203AD46FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8C0A3B-4CFE-463E-8DA6-DCF203AD46FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8C0A3B-4CFE-463E-8DA6-DCF203AD46FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B71AEC0-A9B6-4A21-90A0-52A9DAF862B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B71AEC0-A9B6-4A21-90A0-52A9DAF862B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B71AEC0-A9B6-4A21-90A0-52A9DAF862B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B71AEC0-A9B6-4A21-90A0-52A9DAF862B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F605DD8-8FDE-4F29-82B8-4A119D00F07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F605DD8-8FDE-4F29-82B8-4A119D00F07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F605DD8-8FDE-4F29-82B8-4A119D00F07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F605DD8-8FDE-4F29-82B8-4A119D00F07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5DC0974-8D28-4DA0-992F-340AB2C3C9BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5DC0974-8D28-4DA0-992F-340AB2C3C9BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5DC0974-8D28-4DA0-992F-340AB2C3C9BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5DC0974-8D28-4DA0-992F-340AB2C3C9BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF747F1-FB3A-4F57-98F8-B437739B309C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF747F1-FB3A-4F57-98F8-B437739B309C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF747F1-FB3A-4F57-98F8-B437739B309C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF747F1-FB3A-4F57-98F8-B437739B309C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA8C0A3B-4CFE-463E-8DA6-DCF203AD46FB} = {A05F0F39-1E1C-47AD-ABFC-494536E78FFF}
+		{1B71AEC0-A9B6-4A21-90A0-52A9DAF862B4} = {75803140-CCC1-4086-ABA6-621F9E93BB6B}
+		{0F605DD8-8FDE-4F29-82B8-4A119D00F07A} = {CB32A9F2-593D-40CB-A489-4017B42EE6AF}
+		{E5DC0974-8D28-4DA0-992F-340AB2C3C9BE} = {96C7B1CA-5739-4DA4-A30E-951B10489DF6}
+		{EAF747F1-FB3A-4F57-98F8-B437739B309C} = {BA028221-E1F5-4734-89AB-0ACABE54DC91}
+	EndGlobalSection
+EndGlobal
